@@ -3,9 +3,9 @@ class Hash
     # code goes here
     output = []
     
-    self.each do |key, val|
+    self.collect do |key, val|
       if arg.include?(val)
-        output << key
+        key
       end
     end
     
