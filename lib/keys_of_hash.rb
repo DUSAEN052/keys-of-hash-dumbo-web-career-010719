@@ -3,6 +3,7 @@ class Hash
     # code goes here
     output = []
     
+    *arguments
     
   end
 end
