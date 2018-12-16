@@ -5,7 +5,7 @@ class Hash
     
     self.each do |key, val|
       puts "#{key}, #{val}, #{arg}"
-      if val == arg
+      if key.key?(arg) == arg
         output << key
       end
     end
