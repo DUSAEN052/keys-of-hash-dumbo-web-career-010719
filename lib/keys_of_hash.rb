@@ -8,11 +8,7 @@ class Hash
       
       val.zip(arg).each do |v, a|
         puts "#{v}, #{a}"
-        if v == a
-          output << key
-        end
       end
-    end
     end
     output
   end
