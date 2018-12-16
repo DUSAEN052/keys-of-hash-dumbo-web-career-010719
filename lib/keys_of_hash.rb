@@ -1,9 +1,10 @@
 class Hash
-  def keys_of(*arguments)
+  def keys_of(hash, *arguments)
     # code goes here
     output = []
     
-    *arguments
+    arguments.each do |a|
+      output << hash.index(a)
     
   end
 end
