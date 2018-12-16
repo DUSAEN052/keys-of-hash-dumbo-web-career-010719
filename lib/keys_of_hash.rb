@@ -5,6 +5,7 @@ class Hash
     
     arguments.each do |a|
       output << hash.index(a)
-    
+    end
+  output
   end
 end
