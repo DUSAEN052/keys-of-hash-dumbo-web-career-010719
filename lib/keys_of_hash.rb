@@ -1,6 +1,10 @@
 class Hash
-  def keys_of(*hash)
+  def keys_of(*arg)
     # code goes here
-    hash
+    output = []
+    
+    self.each do |key, val|
+      if 
+    
   end
 end
