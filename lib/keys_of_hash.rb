@@ -3,9 +3,8 @@ class Hash
     # code goes here
     output = []
     
-    self.each do |key, val|
-      puts "#{key}, #{val}"
-    end
+    arg.each do |a|
+      output << self.index(a)
     
     output
   end
