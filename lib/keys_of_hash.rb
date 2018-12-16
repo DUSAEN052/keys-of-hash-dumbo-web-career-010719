@@ -4,6 +4,7 @@ class Hash
     output = []
     
     self.each do |key, val|
+      puts "#{key}, #{val}, #{arg}"
       if val == arg
         output << key
       end
