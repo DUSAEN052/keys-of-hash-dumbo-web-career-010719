@@ -5,8 +5,11 @@ class Hash
     
     self.each do |key, val|
       puts "#{val}, #{arg}"
-      if val == arg.each {|a| a}
-        output << key
+      
+      val.zip(arg).each do |v, a|
+        if v == a
+          output << key
+        end
       end
     end
     output
