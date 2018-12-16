@@ -4,7 +4,7 @@ class Hash
     output = []
     
     arg.each do |a|
-      if self.index(a)
+      if self.key?(a)
         output << self.index(a)
       end
     end
