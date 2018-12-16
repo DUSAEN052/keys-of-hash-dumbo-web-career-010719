@@ -4,7 +4,7 @@ class Hash
     output = []
   
     arguments.each do |a|
-      output << hash.index(a)
+      output << Hash.index(a)
     end
   output
   end
