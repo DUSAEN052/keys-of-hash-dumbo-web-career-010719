@@ -1,11 +1,6 @@
 class Hash
-  def keys_of(*arguments, **hash)
+  def keys_of(**hash)
     # code goes here
-    output = []
-
-    arguments.each do |a|
-      puts "#{a}, #{hash}"
-    end
-  output
+    hash
   end
 end
