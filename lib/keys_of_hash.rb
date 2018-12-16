@@ -4,8 +4,7 @@ class Hash
     output = []
     puts opts
     arguments.each do |a|
-      puts "#{a}, #{opts}"
-      output << opts.index(a)
+      puts "#{a}"
     end
   output
   end
