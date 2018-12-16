@@ -6,6 +6,7 @@ class Hash
     self.each do |key, val|
       puts "#{key}, #{val}"
     end
+    
     output
   end
 end
