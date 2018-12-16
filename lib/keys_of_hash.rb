@@ -7,5 +7,4 @@ class Hash
       output << hash.index(a)
     end
   output
-  end
 end
