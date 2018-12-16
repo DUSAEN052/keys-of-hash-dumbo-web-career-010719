@@ -1,9 +1,9 @@
 class Hash
-  def keys_of(*arguments)
+  def keys_of(*arguments, **hash)
     # code goes here
     output = []
 
-    arguments.each do |a, k|
+    arguments.each do |a|
       puts "#{a}"
     end
   output
