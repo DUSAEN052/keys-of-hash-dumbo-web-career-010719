@@ -6,6 +6,7 @@ class Hash
     self.each do |key, val|
       puts "#{val}, #{arg}"
       
+      if val == arg.index
         
     end
     
