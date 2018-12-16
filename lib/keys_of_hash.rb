@@ -3,7 +3,7 @@ class Hash
     # code goes here
     output = []
 
-    arguments.each do |a,k|
+    arguments.each do |a|
       puts "#{a}"
     end
   output
