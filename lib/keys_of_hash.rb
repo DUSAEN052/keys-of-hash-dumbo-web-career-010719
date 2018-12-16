@@ -3,9 +3,9 @@ class Hash
     # code goes here
     output = []
     
-    arg.each do |a|
-      if self.key?(a)
-        output << self.key?(a)
+    self.each do |key, val|
+      if val == arg
+        output << key
       end
     end
     output
