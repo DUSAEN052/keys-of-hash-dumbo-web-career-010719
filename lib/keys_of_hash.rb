@@ -5,6 +5,7 @@ class Hash
     
     self.each do |key, val|
       puts "#{key}, #{val}"
-    end    
+    end
+    output
   end
 end
