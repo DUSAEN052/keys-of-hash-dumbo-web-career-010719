@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(*arguments, *opts)
+  def keys_of(*arguments)
     # code goes here
     output = []
     puts opts
