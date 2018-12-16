@@ -13,6 +13,7 @@ class Hash
         end
       end
     end
+    end
     output
   end
 end
