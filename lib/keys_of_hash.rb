@@ -4,7 +4,7 @@ class Hash
     output = []
     
     self.each do |key, val|
-      if 
-    
+      puts "#{key}, #{val}"
+    end    
   end
 end
