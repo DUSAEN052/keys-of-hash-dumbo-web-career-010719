@@ -8,7 +8,5 @@ class Hash
         key
       end
     end
-    
-    output
   end
 end
