@@ -4,7 +4,7 @@ class Hash
     output = []
 
     arguments.each do |a, k|
-      puts "#{a}, #{k}"
+      puts "#{a}"
     end
   output
   end
