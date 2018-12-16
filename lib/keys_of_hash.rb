@@ -4,8 +4,10 @@ class Hash
     output = []
     
     arg.each do |a|
-      output << self.index(a)
-    
+      if self.index(a)
+        output << self.index(a)
+      end
+    end
     output
   end
 end
